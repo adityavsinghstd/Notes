@@ -1,0 +1,7 @@
+Write a program that prints a string to the console, test.
+Expand it to write that string to a file also, test.
+Expand it to read the string from another file, test.
+Decide if you want to try to make it a line-based editor or a notepad-like editor, (assuming line-based) expand it to print out only the line you choose, test.
+Divide the string storage variable into a line separated buffer, change your file read and write functions to handle read and write by line to the buffer, test.
+Write a command parser to read what to do from console, like load to call your read file function, [code]print (n)[/code] to call the print to console function, save to call the write file function, and you might need quit to exit when you are done, test.
+Expand the print to console function with a function to print a range (perhaps using a function supporting a callback so you can reuse it for other functions), perhaps using a for-loop? Change the command parser to support ranges, test.
